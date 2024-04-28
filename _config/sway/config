@@ -75,6 +75,8 @@ input "2:7:SynPS/2_Synaptics_TouchPad" {
 
 }
 
+input "1:1:AT_Translated_Set_2_keyboard" repeat_delay 300
+input "1:1:AT_Translated_Set_2_keyboard" repeat_rate 30
 
 ### Key bindings
 #
