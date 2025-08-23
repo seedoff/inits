@@ -44,3 +44,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # modify UI density on Firefox 
 git clone https://github.com/black7375/Firefox-UI-Fix $HOME/projects/
+
+
+#install install input method for Korean in ArchLinux 
+#sudo pacman -Syu fcitx5-im fcitx-hangul
