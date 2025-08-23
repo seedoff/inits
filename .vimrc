@@ -110,4 +110,4 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 
 
-source vim/neocomplcache.vim
+source $HOME/projects/inits/vim/neocomplcache.vim
