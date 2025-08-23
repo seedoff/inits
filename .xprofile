@@ -1,0 +1,9 @@
+#GTK_IM_MODULE=fcitx
+#QT_IM_MODULE=fcitx
+#QT4_IM_MODULE=fcitx
+#QT5_IM_MODULE=fcitx
+#XMODIFIERS=@im=fcitx
+
+export $(/usr/lib/systemd/user-environment-generators/30-systemd-environment-d-generator)
+env | grep fcitx
+fcitx5 -d
