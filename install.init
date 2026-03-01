@@ -34,3 +34,5 @@ git clone https://github.com/black7375/Firefox-UI-Fix $HOME/projects/
 #sudo pacman -S fcitx5-im fcitx-hangul
 echo "\nPlease install packages as follows if you want to use Korean input.\n ---- \n\n$ sudo pacman -S fcitx5-im fcitx-hangul\n"
 
+ln -sf .vimrc $HOME/.vimrc
+ln -sf .xprofile $HOME/.xprofile
