@@ -24,27 +24,13 @@ omz plugin enable \
 #install Vundle as vim plugins manager
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-#install nvm as npm version manager 
-#curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-
 #install poetry as Python packaging and dependency manager
 #curl -sSL https://install.python-poetry.org | python3 -
-
-##Getting miniconda as python
-#instHome=$HOME/projects
-#mkdir -p $instHOME/bin $instHOME/tmp
-#condaHOME = $instHOME/miniconda3
-#mkdir -p $condaHOME
-
-#curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o $condaHOME/miniconda.sh
-#curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o $condaHOME/miniconda.sh
-#bash $condaHOME/miniconda.sh -b -u -p $condaHOME
-#rm -rf $condaHOME/miniconda.sh
-#$condaHOME/bin/conda init zsh
 
 # modify UI density on Firefox 
 git clone https://github.com/black7375/Firefox-UI-Fix $HOME/projects/
 
-
 #install install input method for Korean in ArchLinux 
-#sudo pacman -Syu fcitx5-im fcitx-hangul
+#sudo pacman -S fcitx5-im fcitx-hangul
+echo "\nPlease install packages as follows if you want to use Korean input.\n ---- \n\n$ sudo pacman -S fcitx5-im fcitx-hangul\n"
+
